@@ -1,0 +1,27 @@
+server:
+  port: 55555
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xy63237777/ttms-config.git
+  application:
+    name: ttms-config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ENC(thMwOVT0NlT4SICDkl8DaAOiweUg+GMr)
+    url: jdbc:mysql://www.ttms.com:8066/ttms?useUnicode=true&characterEncoding=gbk&useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+  rabbitmq:
+    host: www.thesevensky.com
+    username: thesevensky
+    password: xy3055789
+  elasticsearch:
+    jest:
+      uris: http://www.ttms.com:9200
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
+jasypt:
+  encryptor:
+    password: thesevensky

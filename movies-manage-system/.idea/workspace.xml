@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ab2b8df-1ced-47d4-881c-e0ffa5e31b1f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/movies-manage-api/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-provider-movies-ceshi/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-provider-movies-9527/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-provider-movies-19527/target/" />
+    <ignored path="$PROJECT_DIR$/thesevensky-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-eureka-server-parent/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-eureka-server-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-server-config/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-zuul-gateway-server/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-zuul-gateway-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-http-client/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-user-provider-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-provider-user-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-auth-oatuen2-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-oauth2-server-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-provider-movies-master/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-zuul-gateway-admin-system/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-zuul-admin-system/target/" />
+    <ignored path="$PROJECT_DIR$/ttms-file-upload-master/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="movies-manage-system" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesSeatServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/TtmsProviderMovies19527Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies-manage-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thesevensky-spring-boot-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/pojo/movies/Movies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttms-server-config/src/main/java/com/thesevensky/ttms/ttmsserverconfig/config/DefaultConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/MoviesCartService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesCartServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="191" column="52" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/MoviesSeatService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="mybatis-generator-config" />
+        <option value="mybatis-config" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>default</find>
+      <find>fallback</find>
+      <find>Hash</find>
+      <find>HashOperations</find>
+      <find>opsForHash</find>
+      <find>Ex</find>
+      <find>exchange</find>
+      <find>MoviesPlan</find>
+      <find>TokenGranter</find>
+      <find>ID</find>
+      <find>movieSeat_Id</find>
+      <find>Long</find>
+      <find>Integer</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/AuthorityService.java" />
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/src/main/java/com/thesevensky/starter/properties/cart/Properties.java" />
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/src/main/java/com/thesevensky/starter/properties/cart/CartProperties.java" />
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/src/main/java/com/thesevensky/starter/properties/cart/page/CartPageProperties.java" />
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/src/main/java/com/thesevensky/starter/properties/MasterProperties.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/dao/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/ttms-server-config/src/main/java/com/thesevensky/ttms/ttmsserverconfig/master/dao/ServerDao.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/resources/mybatis/mapper/user/AuthorityMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-server-config/src/main/resources/mybatis/mapper/master/ServerMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-server-config/src/main/java/com/thesevensky/ttms/ttmsserverconfig/master/service/ServerService.java" />
+        <option value="$PROJECT_DIR$/ttms-server-config/src/main/java/com/thesevensky/ttms/ttmsserverconfig/master/scheduling/ServerScheduling.java" />
+        <option value="$PROJECT_DIR$/ttms-oauth2-server-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/HttpAsyncServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/HttpService.java" />
+        <option value="$PROJECT_DIR$/ttms-oauth2-server-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/HttpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/service/movies/MoviesClientService.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/movies/MoviesController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/controller/MoviesController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-file-upload-master/src/main/java/com/thesevensky/ttms/ttmsfileuploadmaster/service/impl/MoviesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/constants/user/AuthorityConstants.java" />
+        <option value="$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/pojo/user/Authority.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/AuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/movies/MoviesHallController.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/resources/mybatis/mapper/user/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/constants/user/UserConstants.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/service/user/UserClientService.java" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesSeatMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesPlanServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-file-upload-master/src/main/java/com/thesevensky/ttms/ttmsfileuploadmaster/controller/MoviesController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesCartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesPlanDao.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesPlanMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesCartMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesHallDao.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesHallMapper.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/MoviesHallService.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesHallServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/controller/MoviesHallController.java" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesSeatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-server-config/src/main/java/com/thesevensky/ttms/ttmsserverconfig/config/DefaultConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ttms-provider-movies-19527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ttms-provider-movies-19527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-manage-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky-spring-boot-starter-autoconfiguration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thesevensky" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms" type="462c0819:PsiDirectoryNode" />
+              <item name="ttmszuulgatewaymaster" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies-manage-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies-manage-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ttms-zuul-gateway-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="OAuth2AuthenticationPro&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter&#10;Oau&#9;FILE&#9;jar://D:/Maven/LocalWarehouse/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.class&#10;UserInfoRestTemplate&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.oauth2.resource.DefaultUserInfoRestTemplateFactory&#10;Security&#9;PSI&#9;JAVA://com.thesevensky.starter.commons.SecurityConstants&#10;SpringSessionAuto&#9;null&#9;null&#10;Drui&#9;FILE&#9;file://D:/JAVAEE/movies-manage-system/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/config/DruidConfig.java&#10;DruidConfig&#9;PSI&#9;JAVA://com.thesevensky.starter.config.DruidConfig&#10;Druid&#9;PSI&#9;JAVA://com.thesevensky.ttms.ttmszuulgatewaymaster.config.DruidConfig" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ttms-provider-user-master/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttms-provider-user-master/src/main/resources/mybatis/mapper/user" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-zuul-gateway-master\src\main\resources\static\css" />
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-zuul-gateway-master\src\main\resources\static\js" />
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-zuul-gateway-master\src\main\resources\static\image" />
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-zuul-gateway-master\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thesevensky.ttms.ttmsauthoatuen2master" />
+      <recent name="com.thesevensky.ttms.moviesmanageapi" />
+      <recent name="com.thesevensky.starter" />
+      <recent name="com.thesevensky.ttms" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-provider-user-master\src\main\resources\mybatis\mapper\user" />
+      <recent name="D:\JAVAEE\movies-manage-system" />
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-file-upload-master\src\main\resources" />
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-file-upload-master\src\main\resources\mybatis\mapper\movies" />
+      <recent name="D:\JAVAEE\movies-manage-system\ttms-zuul-gateway-master\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thesevensky.ttms.ttmsproviderusermaster.dao" />
+      <recent name="com.thesevensky.ttms.ttmsfileuploadmaster.web" />
+      <recent name="com.thesevensky.ttms.moviesmanageapi.commons.dto" />
+      <recent name="com.thesevensky.ttms.moviesmanageapi.commons.until" />
+      <recent name="com.thesevensky.ttms.ttmsfileuploadmaster.commons.advice" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thesevensky.ttms.ttmszuulgatewaymaster.service.movies" />
+      <recent name="com.thesevensky.ttms.ttmszuulgatewaymaster.service.movies.fallback" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TtmsFileUploadMasterApplication">
+    <configuration name="QRCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.ttms.moviesmanageapi.commons.until.QRCodeUtil" />
+      <module name="movies-manage-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.ttms.moviesmanageapi.commons.until.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsFileUploadMasterApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ttms-file-upload-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.ttms.ttmsfileuploadmaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thesevensky.ttms.ttmsfileuploadmaster" />
+      <option name="MAIN_CLASS_NAME" value="com.thesevensky.ttms.ttmsfileuploadmaster.TtmsFileUploadMasterApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThesevenskySpringBootStarterAutoconfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thesevensky-spring-boot-starter-autoconfiguration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.starter.ThesevenskySpringBootStarterAutoconfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsAuthOatuen2MasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-auth-oatuen2-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsauthoatuen2master.TtmsAuthOatuen2MasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsEurekaServerMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-eureka-server-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmseurekaservermaster.TtmsEurekaServerMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsFileUploadMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-file-upload-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsfileuploadmaster.TtmsFileUploadMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsOAuth2ServerMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ttms-oauth2-server-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.ttms.ttmsproviderusermaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsproviderusermaster.TtmsOAuth2ServerMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsProviderMovies19527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-provider-movies-19527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsprovidermovies19527.TtmsProviderMovies19527Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsProviderMovies9527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-provider-movies-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.TtmsProviderMovies9527Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsProviderMoviesMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-provider-user-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsproviderusermaster.TtmsProviderUserMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsProviderUserMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-oauth2-server-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsproviderusermaster.TtmsProviderUserMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsServerConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-server-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmsserverconfig.TtmsServerConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsUserProviderMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-user-provider-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="moviesmanagesystem.ttmsuserprovidermaster.TtmsUserProviderMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsZuulAdminSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-zuul-admin-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmszuuladminsystem.TtmsZuulAdminSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsZuulGatewayAdminSystemApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ttms-zuul-gateway-admin-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.ttms.ttmszuulgatewayadminsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmszuulgatewayadminsystem.TtmsZuulGatewayAdminSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsZuulGatewayAdminSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="movies-manage-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thesevensky.ttms.ttmszuulgatewaymaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmszuulgatewaymaster.TtmsZuulGatewayAdminSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsZuulGatewayAdminSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ttms-zuul-gateway-admin-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmszuulgatewaymaster.TtmsZuulGatewayAdminSystemApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtmsZuulGatewayMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ttms-zuul-gateway-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thesevensky.ttms.ttmszuulgatewaymaster.TtmsZuulGatewayMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.QRCodeUtil" />
+      <item itemvalue="JUnit.TtmsFileUploadMasterApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.TtmsProviderMovies9527Application" />
+      <item itemvalue="Spring Boot.TtmsProviderMovies19527Application" />
+      <item itemvalue="Spring Boot.ThesevenskySpringBootStarterAutoconfigurationApplication" />
+      <item itemvalue="Spring Boot.TtmsZuulGatewayMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsUserProviderMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsServerConfigApplication" />
+      <item itemvalue="Spring Boot.TtmsProviderUserMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsAuthOatuen2MasterApplication" />
+      <item itemvalue="Spring Boot.TtmsProviderMoviesMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsEurekaServerMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsZuulAdminSystemApplication" />
+      <item itemvalue="Spring Boot.TtmsFileUploadMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsOAuth2ServerMasterApplication" />
+      <item itemvalue="Spring Boot.TtmsZuulGatewayAdminSystemApplication" />
+      <item itemvalue="Spring Boot.TtmsZuulGatewayAdminSystemApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TtmsOAuth2ServerMasterApplication" />
+        <item itemvalue="Spring Boot.TtmsZuulGatewayAdminSystemApplication" />
+        <item itemvalue="Application.QRCodeUtil" />
+        <item itemvalue="JUnit.TtmsFileUploadMasterApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.TtmsZuulGatewayAdminSystemApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ab2b8df-1ced-47d4-881c-e0ffa5e31b1f" name="Default" comment="" />
+      <created>1556961283325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556961283325</updated>
+      <workItem from="1556961286936" duration="12158000" />
+      <workItem from="1557021944996" duration="9434000" />
+      <workItem from="1557041942783" duration="98733000" />
+      <workItem from="1557465007936" duration="1123000" />
+      <workItem from="1557469078948" duration="35712000" />
+      <workItem from="1557801154164" duration="8802000" />
+      <workItem from="1558077352057" duration="68418000" />
+      <workItem from="1558272009347" duration="78000" />
+      <workItem from="1558272123491" duration="345000" />
+      <workItem from="1558273241175" duration="10000" />
+      <workItem from="1558273704943" duration="346000" />
+      <workItem from="1558274086930" duration="100000" />
+      <workItem from="1558274218777" duration="46000" />
+      <workItem from="1558274480154" duration="22000" />
+      <workItem from="1558275363800" duration="18000" />
+      <workItem from="1558275631747" duration="48000" />
+      <workItem from="1558275857032" duration="20000" />
+      <workItem from="1558275920282" duration="981000" />
+      <workItem from="1558276939982" duration="66000" />
+      <workItem from="1558316075140" duration="145000" />
+      <workItem from="1558316324130" duration="1745000" />
+      <workItem from="1558318239298" duration="86468000" />
+      <workItem from="1558934936365" duration="743000" />
+      <workItem from="1558935837764" duration="132000" />
+      <workItem from="1558936021895" duration="103000" />
+      <workItem from="1558936170121" duration="663000" />
+      <workItem from="1558936878760" duration="139000" />
+      <workItem from="1558937070941" duration="75000" />
+      <workItem from="1558937198747" duration="2557000" />
+      <workItem from="1558946287396" duration="5683000" />
+      <workItem from="1559011014527" duration="22641000" />
+      <workItem from="1559369440938" duration="597000" />
+      <workItem from="1559371066811" duration="16015000" />
+      <workItem from="1559393373019" duration="56408000" />
+      <workItem from="1559651545717" duration="23744000" />
+      <workItem from="1559795964502" duration="14161000" />
+      <workItem from="1559834724081" duration="21322000" />
+      <workItem from="1560134826036" duration="96792000" />
+      <workItem from="1560343095692" duration="92872000" />
+      <workItem from="1560770935516" duration="3948000" />
+      <workItem from="1561175975842" duration="972000" />
+      <workItem from="1561193432066" duration="9525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TtmsProviderMovies19527ApplicationTests_contextLoads - 2019.05.09 at 20h 27m 51s.xml">
+      <configuration name="TtmsProviderMovies19527ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TtmsProviderMovies19527ApplicationTests_contextLoads - 2019.05.09 at 20h 30m 14s.xml">
+      <configuration name="TtmsProviderMovies19527ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1 - 2019.05.20 at 13h 39m 38s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1 - 2019.05.20 at 13h 42m 52s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.05.20 at 13h 43m 06s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1_(1) - 2019.05.20 at 13h 45m 37s.xml">
+      <configuration name="Test.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1_(1) - 2019.05.20 at 13h 52m 32s.xml">
+      <configuration name="Test.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_hello - 2019.05.21 at 11h 32m 14s.xml">
+      <configuration name="Test.hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_hello - 2019.05.21 at 11h 33m 49s.xml">
+      <configuration name="Test.hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TtmsFileUploadMasterApplicationTests_contextLoads - 2019.06.05 at 17h 07m 38s.xml">
+      <configuration name="TtmsFileUploadMasterApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="693910000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5439469" visible="true" weight="0.39132762" />
+      <window_info id="Structure" order="1" sideWeight="0.45605308" side_tool="true" weight="0.38115633" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.38838708" side_tool="true" weight="0.27462527" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32892057" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785867" weight="0.556314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35437882" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892057" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214136" side_tool="true" weight="0.39002037" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946466" weight="0.32892057" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicates" order="14" weight="0.3299389" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.3299389" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946466" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32976446" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32976446" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32942432" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.32976446" />
+      <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.class</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/http/HttpHeaders.class</url>
+          <line>871</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.class</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.class</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/src/main/java/com/thesevensky/starter/properties/file/ImageFileProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-file-upload-master/src/main/java/com/thesevensky/ttms/ttmsfileuploadmaster/service/impl/MoviesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="98" column="62" lean-forward="true" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/dto/UpdatePassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/dao/AuthorityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/AuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/constants/user/AuthorityConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/pojo/user/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2784#2785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/HttpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/AuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/movies/MoviesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="86" column="68" selection-start-line="86" selection-start-column="68" selection-end-line="86" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/movies/MoviesHallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/movies/MoviesPlanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-849">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/resources/mybatis/mapper/user/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="73" column="80" selection-start-line="73" selection-start-column="80" selection-end-line="73" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+          <folding>
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3088#3089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/constants/user/UserConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesPlanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2231">
+          <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="129" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/service/user/UserClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/commons/dto/SeatList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesSeatDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesSeatMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-user-master/src/main/java/com/thesevensky/ttms/ttmsproviderusermaster/TtmsProviderUserMasterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-zuul-gateway-master/src/main/java/com/thesevensky/ttms/ttmszuulgatewaymaster/TtmsZuulGatewayMasterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-file-upload-master/src/main/java/com/thesevensky/ttms/ttmsfileuploadmaster/controller/MoviesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesPlanMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesPlanDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesCartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesCartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/dao/movies/MoviesHallDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/resources/mybatis/mapper/movies/MoviesHallMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/MoviesHallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesHallServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="116" column="43" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+          <folding>
+            <element signature="e#4298#4299#0" expanded="true" />
+            <element signature="e#4356#4357#0" expanded="true" />
+            <element signature="e#4438#4439#0" expanded="true" />
+            <element signature="e#4465#4466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/controller/MoviesHallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/controller/MoviesCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/MoviesCartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesCartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="191" column="52" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/MoviesSeatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thesevensky-spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies-manage-api/src/main/java/com/thesevensky/ttms/moviesmanageapi/pojo/movies/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-server-config/src/main/java/com/thesevensky/ttms/ttmsserverconfig/config/DefaultConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies-manage-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/service/movies/impl/MoviesSeatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttms-provider-movies-19527/src/main/java/com/thesevensky/ttms/ttmsprovidermovies19527/TtmsProviderMovies19527Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>movies-manage-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

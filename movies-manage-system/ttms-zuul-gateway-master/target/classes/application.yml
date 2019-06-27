@@ -1,0 +1,65 @@
+#auth-server: http://www.thesevensky.com:11111
+#feign:
+#  hystrix:
+#    enabled: true
+#server:
+#  port: 80
+#spring:
+#  application:
+#    name: http-client
+#  profiles:
+#    active: dev
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka10086.com:10086/eureka/
+#pagehelper:
+#  reasonable: true
+#
+#security:
+#  oauth2:
+#    client:
+#      client-id: theSevenSky1
+#      client-secret: ENC(wCxhbi4ItoIJ4rku3TeUzyxYCT3Pj53t)
+#      user-authorization-uri: ${auth-server}/oauth/authorize
+#      access-token-uri: ${auth-server}/oauth/token
+#    resource:
+#      jwt:
+#        key-uri: ${auth-server}/oauth/token_key
+
+jasypt:
+  encryptor:
+    password: TTMS
+
+
+#zuul:
+#  routes:
+#    provider-movies:
+#      path: /**
+#      sensitiveHeaders:
+
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        timeout:
+#          enabled: false
+#        isolation:
+#          strategy: SEMAPHORE
+
+hystrix:
+  shareSecurityContext: true
+
+auth-server: http://www.thesevensky.com:11111
+
+security:
+  oauth2:
+    client:
+      client-id: theSevenSky1
+      client-secret: xy123456
+      user-authorization-uri: ${auth-server}/oauth/authorize
+      access-token-uri: ${auth-server}/oauth/token
+    resource:
+      jwt:
+        key-uri: ${auth-server}/oauth/token_key

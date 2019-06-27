@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: ttms-oauth2-server-master
+      label: master
+      uri: http://ttms.com:55555
+      profile: dev

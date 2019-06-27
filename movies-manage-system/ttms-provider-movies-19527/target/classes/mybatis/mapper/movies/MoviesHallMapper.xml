@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesHallDao">
+
+    <resultMap id="moviesHallMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesHall">
+        <id column="movieHall_Id" property="movieHallId" />
+        <result column="movieHall_Name" property="movieHallName" />
+        <result column="movieHall_State" property="movieHallState" />
+        <result column="movieHall_Row" property="movieHallRow" />
+        <result column="movieHall_Col" property="movieHallCol" />
+    </resultMap>
+
+    <resultMap id="idMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesHall">
+        <id column="movieHall_Id" property="movieHallId" />
+        <result column="movieHall_Name" property="movieHallName" />
+    </resultMap>
+
+    <resultMap id="moviesHallMapDetails" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesHall">
+        <id column="movieHall_Id" property="movieHallId" />
+        <result column="movieHall_Name" property="movieHallName" />
+        <result column="movieHall_State" property="movieHallState" />
+        <result column="movieHall_Row" property="movieHallRow" />
+        <result column="movieHall_Col" property="movieHallCol" />
+        <collection property="moviesSeats" column="movieHall_Id" select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesSeatDao.queryByHallId" />
+    </resultMap>
+    <insert id="insertMoviesHall" keyProperty="movieHallId" keyColumn="movieHall_Id" useGeneratedKeys="true">
+        insert into movies_hall(ID, movieHall_Id, movieHall_Name, movieHall_State, movieHall_Row, movieHall_Col)
+        VALUES (#{movieHallName} , null ,#{movieHallName}, #{movieHallState},#{movieHallRow}, #{movieHallCol} )
+    </insert>
+    <update id="updateMoviesHall">
+        update movies_hall set movieHall_Name = #{movieHallName},movieHall_State = #{movieHallState}
+          where movieHall_Id = #{movieHallId}
+    </update>
+    <delete id="deleteMoviesHall">
+        delete from movies_hall where movieHall_Id = #{id}
+    </delete>
+
+    <select id="queryAll" resultMap="moviesHallMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesHall">
+        select * from movies_hall
+    </select>
+    <select id="queryById" resultMap="moviesHallMapDetails" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesHall">
+        select * from movies_hall where movieHall_Id = #{id}
+    </select>
+    <select id="queryForId" resultMap="idMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesHall">
+        select * from movies_hall where movieHall_Id = #{id}
+    </select>
+    <select id="cmpCanInsert" resultType="java.lang.Integer">
+        select count(*) from movies_hall
+    </select>
+
+</mapper>

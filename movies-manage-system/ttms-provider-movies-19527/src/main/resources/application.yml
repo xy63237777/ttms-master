@@ -1,0 +1,27 @@
+jasypt:
+  encryptor:
+    password: thesevensky
+#eureka:
+#  instance:
+#    instance-id: provider-movies
+#
+#security:
+#  oauth2:
+#    client:
+#      client-id: theSevenSky1
+#      client-secret: ENC(DiWJab9q14m7rykKydz8t2fJIWbkT6Iw)
+#      access-token-uri: http://www.ttms.com:11111/oauth/token
+#      user-authorization-uri: http://www.ttms.com:11111/oauth/authorize
+#    resource:
+#      token-info-uri: http://www.ttms.com:11111/oauth/check_token
+auth-server: http://www.thesevensky.com:11111
+
+security:
+  oauth2:
+    client:
+      client-id: theSevenSky1
+      client-secret: xy123456
+      access-token-uri: ${auth-server}/oauth/token
+      user-authorization-uri: ${auth-server}/oauth/authorize
+    resource:
+      token-info-uri: ${auth-server}/oauth/check_token

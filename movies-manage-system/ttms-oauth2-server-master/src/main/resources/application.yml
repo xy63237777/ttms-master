@@ -1,0 +1,73 @@
+#
+#
+#
+#spring:
+#  datasource:
+##   数据源基本配置
+#    username: root
+#    password: ENC(YfyxpJmnENdbi3b0KivVLDfXDBxJCizV)
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/ttms?useUnicode=true&characterEncoding=gbk&useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+#    type: com.alibaba.druid.pool.DruidDataSource
+##   数据源其他配置
+#    initialSize: 30
+#    minIdle: 30
+#    maxActive: 70
+#    maxWait: 60000
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: SELECT 1 FROM DUAL
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    poolPreparedStatements: true
+#  application:
+#    name: auth-user
+#  profiles:
+#    active: dev
+#
+#server:
+#  port: 11111
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka10086.com:10086/eureka/
+#  instance:
+#    instance-id: auth-user
+#pagehelper:
+#  reasonable: true
+#mybatis:
+#  mapper-locations: classpath:mybatis/mapper/**/*.xml
+#
+
+jasypt:
+  encryptor:
+    password: OAuth2
+
+thesevensky:
+  security:
+    oauth2:
+      clients:
+        - clientId: theSevenSky1
+          secret: xy123456
+          redirectUris : [http://www.ttms.com/login,http://www.baidu.com]
+#
+#
+#
+#
+#
+#
+
+#security:
+#  oauth2:
+#    resource:
+#      id: provider-movies
+#      user-info-uri: http://www.ttms.com:11111/oa/ouser
+#      jwt:
+#        key-uri: http://www.thesevensky.com:11111/oauth/token_key
+
+spring:
+  mvc:
+    static-path-pattern: /images/**
+  resources:
+      static-locations: classpath:/META-INF/resources/,classpath\:/resources/,classpath:/static/,file:D:\ttms\images

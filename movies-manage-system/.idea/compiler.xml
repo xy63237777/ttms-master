@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ttms-oauth2-server-master" />
+        <module name="ttms-eureka-server-master" />
+        <module name="ttms-server-config" />
+        <module name="thesevensky-spring-boot-starter-autoconfiguration" />
+        <module name="ttms-file-upload-master" />
+        <module name="ttms-provider-user-master" />
+        <module name="ttms-provider-movies-19527" />
+        <module name="ttms-zuul-gateway-master" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movies-manage-api" target="11" />
+      <module name="movies-manage-system" target="11" />
+      <module name="thesevensky-spring-boot-starter" target="11" />
+      <module name="thesevensky-spring-boot-starter-autoconfiguration" target="11" />
+      <module name="ttms-eureka-server-master" target="11" />
+      <module name="ttms-file-upload-master" target="11" />
+      <module name="ttms-oauth2-server-master" target="11" />
+      <module name="ttms-provider-movies-19527" target="11" />
+      <module name="ttms-provider-user-master" target="11" />
+      <module name="ttms-server-config" target="11" />
+      <module name="ttms-zuul-admin-system" target="11" />
+      <module name="ttms-zuul-gateway-admin-system" target="11" />
+      <module name="ttms-zuul-gateway-master" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="thesevensky-spring-boot-starter" options="" />
+      <module name="thesevensky-spring-boot-starter-autoconfiguration" options="-parameters" />
+      <module name="ttms-eureka-server-master" options="-parameters" />
+      <module name="ttms-file-upload-master" options="-parameters" />
+      <module name="ttms-oauth2-server-master" options="-parameters" />
+      <module name="ttms-provider-movies-19527" options="-parameters" />
+      <module name="ttms-provider-user-master" options="-parameters" />
+      <module name="ttms-server-config" options="-parameters" />
+      <module name="ttms-zuul-admin-system" options="-parameters" />
+      <module name="ttms-zuul-gateway-admin-system" options="-parameters" />
+      <module name="ttms-zuul-gateway-master" options="-parameters" />
+    </option>
+  </component>
+</project>

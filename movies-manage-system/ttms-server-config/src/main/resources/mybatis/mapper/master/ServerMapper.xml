@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsserverconfig.master.dao.ServerDao">
+    <resultMap id="resultMap" type="com.thesevensky.ttms.ttmsserverconfig.master.pojo.Master" >
+        <id column="ID" property="name" />
+        <result column="endTime" property="time" />
+    </resultMap>
+
+    <resultMap id="moviesAndDetailsMap"  type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        <id column="movie_Id" property="movieId" />
+        <result column="movie_Name" property="movieName" />
+        <result column="movie_State" property="movieState" />
+        <result column="movie_DefaultImage" property="movieDefaultImage" />
+        <result column="movie_BeginTime" property="movieBeginTime" />
+        <result column="movie_Author" property="movieAuthor" />
+        <result column="movie_ScriptWriter" property="movieScriptWriter" />
+        <result column="movie_Actor" property="movieActor" />
+        <result column="movie_Country" property="movieCountry" />
+        <result column="movie_Language" property="movieLanguage" />
+        <result column="movie_Length" property="movieLength" />
+        <result column="movie_SalesVolume" property="movieSalesVolume" />
+        <result column="movie_Grade" property="movieGrade" />
+        <result column="movie_Type" property="moviesTypes.typeNumber" />
+        <result column="movie_DetailImage" property="movieDetailImage" />
+        <collection property="moviesTypes.moviesTypes"
+                    select="com.thesevensky.ttms.ttmsserverconfig.master.dao.ServerDao.queryAllByNumber"
+                    column="movie_Type"  />
+    </resultMap>
+
+    <resultMap id="moviesTypeMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesType">
+        <id column="movieType_Id" property="movieTypeId" />
+        <result column="movieType_Name" property="movieTypeName" />
+        <result column="movieType_State" property="movieTypeState" />
+        <result column="movieType_Bit" property="movieTypeBit"/>
+    </resultMap>
+
+    <select id="queryAllByNumber" resultMap="moviesTypeMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesType">
+        select * from movies_type where #{number} &amp; 1 &lt;&lt; movieType_Bit != 0;
+    </select>
+
+    <insert id="insertTime">
+        insert into `ttms_nowTime`(ID,name,endTime) values (#{name} , #{name},#{time})
+    </insert>
+
+    <update id="updateTime">
+        update `ttms_nowTime` set endTime = #{time} where name = #{name}
+    </update>
+    <update id="updateNextDay">
+        update movies_seat set movieSeat_IsBuy = movieSeat_IsBuy &gt;&gt; #{bit},
+            movieSeat_IsOk = movieSeat_IsOk &gt;&gt; #{bit}
+    </update>
+    <update id="updateHotStatusForNextDay">
+        update movies set movie_State = #{status} where movie_State = #{oldStatus} and movie_BeginTime &lt; #{time}
+    </update>
+    <update id="updateMoviesStatus">
+        update movies set movie_State = #{status}  where movie_Id = #{id}
+    </update>
+    <select id="queryBy" resultMap="resultMap" resultType="com.thesevensky.ttms.ttmsserverconfig.master.pojo.Master">
+        select * from `ttms_nowTime` where name = #{name}
+    </select>
+    <select id="findAllStartPlan"  resultType="int">
+        select moviePlan_MovieId from movies_plan where (moviePlan_StartTime/1000/60/60/24) between #{beginTime} and #{endTime} limit 10086
+    </select>
+    <select id="queryAllMoviesForConfig" resultMap="moviesAndDetailsMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies limit 0,2147483647
+    </select>
+    <update id="updateCartForBit">
+        update movies_cart set movies_Status = #{status} where movies_CartCreateTime between (SELECT DATE_SUB(CURRENT_TIMESTAMP(),INTERVAL 3 DAY))
+            and (SELECT DATE_SUB(CURRENT_TIMESTAMP(),INTERVAL 3 YEAR))
+    </update>
+
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesTypeDao">
+    <resultMap id="moviesTypeMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesType">
+        <id column="movieType_Id" property="movieTypeId" />
+        <result column="movieType_Name" property="movieTypeName" />
+        <result column="movieType_State" property="movieTypeState" />
+        <result column="movieType_Bit" property="movieTypeBit"/>
+    </resultMap>
+    <insert id="insertMoviesType">
+        insert into movies_type(ID,movieType_Id, movieType_Name, movieType_State, movieType_Bit)
+                VALUES(#{movieTypeName} , null,#{movieTypeName},#{movieTypeState},#{movieTypeBit})
+    </insert>
+    <update id="updateMoviesType">
+        update movies_type set movieType_Name = #{movieTypeName}, movieType_State = #{movieTypeState}, movieType_Bit = #{movieTypeBit}
+          where movieType_Id = #{movieTypeId}
+    </update>
+    <delete id="deleteById">
+        delete from movies_type where movieType_Id = #{id}
+    </delete>
+
+    <select id="queryAll" resultMap="moviesTypeMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesType">
+        select * from movies_type
+    </select>
+    <select id="queryById" resultMap="moviesTypeMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesType">
+        select * from movies_type where movieType_Id = #{id}
+    </select>
+    <select id="queryAllByNumber" resultMap="moviesTypeMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesType">
+        select * from movies_type where #{number} &amp; 1 &lt;&lt; movieType_Bit != 0;
+    </select>
+
+
+</mapper>

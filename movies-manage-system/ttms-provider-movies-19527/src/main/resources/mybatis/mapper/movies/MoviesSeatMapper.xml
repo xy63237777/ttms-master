@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesSeatDao">
+    <resultMap id="moviesSeatMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesSeat">
+        <id column="movieSeat_Id" property="movieSeatId" />
+        <result column="movieSeat_IsBuy" property="movieSeatIsBuy" />
+        <result column="movieSeat_IsOk" property="movieSeatIsOk" />
+        <result column="movieSeat_State" property="movieSeatState" />
+        <result column="movieSeat_X" property="movieSeatX" />
+        <result column="movieSeat_Y" property="movieSeatY" />
+    </resultMap>
+    <insert id="insertMoviesSeat">
+        insert into movies_seat(ID,movieSeat_Id, movieSeat_HallId, movieSeat_IsBuy, movieSeat_IsOk,
+                                movieSeat_State, movieSeat_X, movieSeat_Y)
+                values (#{moviesHall.movieHallId}, null,#{moviesHall.movieHallId}, #{movieSeatIsBuy}, #{movieSeatIsOk},#{movieSeatState}
+                ,#{movieSeatX},#{movieSeatY})
+    </insert>
+    <update id="updateMoviesSeat">
+        update movies_seat set movieSeat_IsBuy = #{movieSeatIsBuy},movieSeat_IsOk = #{movieSeatIsOk},
+            movieSeat_X = #{movieSeatX}, movieSeat_Y = #{movieSeatY} , movieSeat_State = #{movieSeatState}
+        where movieSeat_Id = #{movieSeatId}
+    </update>
+    <update id="updateMoviesNextDay">
+        update movies_seat set movieSeat_IsBuy = movieSeat_IsBuy &gt;&gt; #{bit},
+            movieSeat_IsOk = movieSeat_IsOk &gt;&gt; #{bit}
+    </update>
+
+    <update id="updateSeatForNotBuy">
+        update movies_seat set movieSeat_IsBuy = movieSeat_IsBuy &amp; (2147483647 - (1 &lt;&lt; ${bit}))
+        where movieSeat_Id = #{id}
+    </update>
+    <update id="updateSeatForOk">
+        update movies_seat set movieSeat_IsOk = movieSeat_IsOk | 1 &lt;&lt; ${bit}
+        where movieSeat_Id = #{id}
+    </update>
+    <update id="updateSeatForBed">
+        update movies_seat set movieSeat_IsOk = movieSeat_IsOk &amp; (2147483647 - (1 &lt;&lt; ${bit}))
+        where movieSeat_Id = #{id}
+    </update>
+    <update id="updateSeatForBuy">
+        update movies_seat set movieSeat_IsBuy = movieSeat_IsBuy | 1 &lt;&lt; ${bit}
+        where movieSeat_Id = #{id}
+    </update>
+    <delete id="deleteMoviesSeat">
+        delete from movies_seat where movieSeat_Id = #{id}
+    </delete>
+    <delete id="deleteMoviesSeatByHall">
+        delete from movies_seat where movieSeat_HallId = #{hallId}
+    </delete>
+    <select id="queryAll" resultMap="moviesSeatMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesSeat">
+        select * from movies_seat
+    </select>
+    <select id="queryById" resultMap="moviesSeatMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesSeat">
+        select * from movies_seat where movieSeat_Id = #{id}
+    </select>
+    <select id="queryByHallId" resultMap="moviesSeatMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesSeat">
+        select * from movies_seat where movieSeat_HallId = #{hallId}
+    </select>
+    <update id="updateMoviesSeatStatus">
+        update movies_seat set movieSeat_State = #{status} where movieSeat_Id = #{seatId}
+    </update>
+
+</mapper>

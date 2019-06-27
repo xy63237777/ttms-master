@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsproviderusermaster.dao.AuthorityDao">
+    <resultMap id="authorityMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.user.Authority">
+        <id column="authority_Id" property="authorityId" />
+        <result column="authority_Name" property="authorityName" />
+        <result column="authority_SimpleName" property="authoritySimpleName" />
+        <result column="authority_State" property="authorityState" />
+        <result column="authority_UpdateTime" property="authorityUpdateTime" />
+        <result column="authority_Bit" property="authorityBit"/>
+    </resultMap>
+    <select id="findAllSimpleName"  resultType="string">
+        select authority_SimpleName from authority where #{num} &amp; (1 &lt;&lt; authority_Bit) != 0
+    </select>
+    <select id="findAll" resultMap="authorityMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.user.Authority">
+        select * from authority
+    </select>
+    <select id="findAllByNumber" resultMap="authorityMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.user.Authority">
+        select * from authority where #{num} &amp; (1 &lt;&lt; authority_Bit) != 0
+    </select>
+
+</mapper>

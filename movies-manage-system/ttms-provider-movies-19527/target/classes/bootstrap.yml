@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: ttms-provider-movies-19527
+      label: master
+      uri: http://ttms.com:55555
+      profile: dev

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movies-manage-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thesevensky-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-eureka-server-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-file-upload-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-oauth2-server-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-provider-movies-19527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-provider-user-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-server-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-zuul-admin-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-zuul-gateway-admin-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ttms-zuul-gateway-master" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

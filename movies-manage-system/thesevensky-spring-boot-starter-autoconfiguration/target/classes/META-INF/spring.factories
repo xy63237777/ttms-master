@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.thesevensky.starter.config.PropertiesConfig,\
+  com.thesevensky.starter.config.DruidConfig,\
+  com.thesevensky.starter.config.SessionConfig

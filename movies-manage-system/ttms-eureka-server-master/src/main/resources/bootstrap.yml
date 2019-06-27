@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: ttms-eureka-server-10086
+      profile: dev
+      label: master
+      uri: http://ttms.com:55555

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesCartDao">
+
+    <resultMap id="cartMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesCart">
+        <id column="movies_CartId" property="moviesCartId" />
+        <result column="movies_CartCount" property="moviesCartCount" />
+        <result column="movies_Code" property="moviesCode" />
+        <result column="movies_CodeImage" property="moviesCodeImage" />
+        <result column="movies_Seats" property="moviesSeats" />
+        <result column="movies_SeatsText" property="moviesSeatsText" />
+        <result column="movies_Price" property="moviesPrice" />
+        <result column="movies_MovieName" property="moviesMovieName" />
+        <result column="movies_HallName" property="moviesHallName" />
+        <result column="movies_UserId" property="moviesUserId"/>
+        <result column="movies_CartCreateTime" property="moviesCartCreateTime" />
+        <result column="movies_Status" property="moviesStatus" />
+        <association property="moviesPlan" column="movies_PlanId"
+                     select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesPlanDao.findByIdMap" />
+    </resultMap>
+
+
+
+    <resultMap id="cartAndPlanMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesCart">
+        <id column="movies_CartId" property="moviesCartId" />
+        <result column="movies_CartCount" property="moviesCartCount" />
+        <result column="movies_Code" property="moviesCode" />
+        <result column="movies_CodeImage" property="moviesCodeImage" />
+        <result column="movies_Seats" property="moviesSeats" />
+        <result column="movies_SeatsText" property="moviesSeatsText" />
+        <result column="movies_Price" property="moviesPrice" />
+        <result column="movies_MovieName" property="moviesMovieName" />
+        <result column="movies_HallName" property="moviesHallName" />
+        <result column="movies_UserId" property="moviesUserId"/>
+        <result column="movies_Status" property="moviesStatus" />
+        <result column="movies_CartCreateTime" property="moviesCartCreateTime" />
+        <association property="moviesPlan" column="movies_PlanId"
+                     select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesPlanDao.queryById" />
+    </resultMap>
+    <insert id="insertMoviesCart" useGeneratedKeys="true" keyProperty="" keyColumn="movies_CartId" parameterType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesCart">
+        insert into movies_cart(ID, movies_CartId, movies_CartCount,movies_Code, movies_CodeImage, movies_Seats,movies_SeatsText, movies_Price,
+                                movies_MovieName,movies_HallName,movies_UserId,movies_Status,movies_CartCreateTime,movies_PlanId)
+            VALUES(#{moviesMovieName} , null,#{moviesCartCount},#{moviesCode},#{moviesCodeImage},#{moviesSeats},#{moviesSeatsText} ,#{moviesPrice},
+                   #{moviesMovieName},#{moviesHallName},#{moviesUserId},#{moviesStatus},now(),#{moviesPlan.moviePlanId}  )
+    </insert>
+    <update id="updateMoviesCartStatus">
+        update movies_cart set movies_Status = #{status} where movies_CartId = #{id}
+                                                           and movies_UserId = #{userId}
+    </update>
+    <delete id="deleteMoviesCart">
+        delete from movies_cart where movies_CartId = #{moviesCartId} and movies_UserId = #{userId}
+    </delete>
+
+    <select id="findAllByUserId" resultMap="cartMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesCart">
+        select * from movies_cart where movies_UserId = #{userId}
+    </select>
+    <select id="queryById" resultMap="cartAndPlanMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesCart">
+        select * from  movies_cart where movies_CartId = #{id}
+    </select>
+    <delete id="deleteMoviesCartForUser">
+        delete from movies_cart where movies_UserId = #{userId}
+    </delete>
+
+
+</mapper>

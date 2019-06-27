@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsfileuploadmaster.dao.MoviesDao">
+
+    <resultMap id="moviesAndDetailsMap"  type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        <id column="movie_Id" property="movieId" />
+        <result column="movie_name" property="movieName" />
+        <result column="movie_State" property="movieState" />
+        <result column="movie_DefaultImage" property="movieDefaultImage" />
+        <result column="movie_BeginTime" property="movieBeginTime" />
+        <result column="movie_Author" property="movieAuthor" />
+        <result column="movie_ScriptWriter" property="movieScriptWriter" />
+        <result column="movie_Actor" property="movieActor" />
+        <result column="movie_Country" property="movieCountry" />
+        <result column="movie_Language" property="movieLanguage" />
+        <result column="movie_Length" property="movieLength" />
+        <result column="movie_SalesVolume" property="movieSalesVolume" />
+        <result column="movie_Grade" property="movieGrade" />
+        <result column="movie_Type" property="moviesTypes.typeNumber" />
+        <result column="movie_DetailImage" property="movieDetailImage" />
+        <result column="movie_DetailTest" property="movieDetailTest" />
+        <result column="movie_Type" property="movieTypeNumber" />
+        <collection property="moviesTypes.moviesTypes"
+                    select="com.thesevensky.ttms.ttmsfileuploadmaster.dao.MoviesTypeDao.queryAllByNumber"
+                    column="movie_Type"  />
+    </resultMap>
+
+    <resultMap id="moviesMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        <id column="movie_Id" property="movieId" />
+        <result column="movie_Name" property="movieName" />
+        <result column="movie_State" property="movieState" />
+        <result column="movie_DefaultImage" property="movieDefaultImage" />
+        <result column="movie_BeginTime" property="movieBeginTime" />
+    </resultMap>
+
+    <resultMap id="movieImageMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        <id column="movie_Id" property="movieId" />
+        <result column="movie_DetailImage" property="movieDetailImage" />
+        <result column="movie_DefaultImage" property="movieDefaultImage" />
+    </resultMap>
+
+    <insert id="insertMovies" keyProperty="movieId" keyColumn="movie_Id" useGeneratedKeys="true">
+        insert into movies(ID,movie_Id, movie_Name, movie_State, movie_DefaultImage,movie_DetailImage,
+                           movie_BeginTime, movie_Author, movie_ScriptWriter, movie_Actor, movie_Country,
+                           movie_Language, movie_Type, movie_Length, movie_SalesVolume, movie_Grade, movie_DetailTest)
+                values (#{movieName} , null , #{movieName},#{movieState},#{movieDefaultImage},#{movieDetailImage} , #{movieBeginTime},
+                        #{movieAuthor},#{movieScriptWriter},#{movieActor},#{movieCountry},#{movieLanguage},
+                #{movieTypeNumber} ,#{movieLength},#{movieSalesVolume},#{movieGrade},#{movieDetailTest} )
+    </insert>
+    <update id="updateMovies">
+        update movies set movie_Name = #{movieName}, movie_State = #{movieState},movie_DefaultImage = #{movieDefaultImage},
+            movie_BeginTime = #{movieBeginTime}, movie_Author = #{movieAuthor}, movie_ScriptWriter = #{movieScriptWriter},
+            movie_Actor = #{movieActor}, movie_Country = #{movieCountry}, movie_Language = #{movieLanguage},
+            movie_Type = #{movieTypeNumber} , movie_Length = #{movieLength}, movie_SalesVolume = #{movieSalesVolume},
+            movie_Grade = #{movieGrade}, movie_DetailImage = #{movieDetailImage},
+                          movie_DetailTest = #{movieDetailTest}
+        where movie_Id = #{movieId}
+    </update>
+
+    <select id="queryAll" resultMap="moviesMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+          select * from movies
+    </select>
+    <select id="queryById" resultMap="moviesAndDetailsMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies where movie_Id = #{id}
+    </select>
+    <select id="queryByTypeBit" resultMap="moviesMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies where movie_Type &amp; (1 &lt;&lt; #{bit}) != 0
+    </select>
+    <select id="queryAllOfDetailed" resultMap="moviesAndDetailsMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies
+    </select>
+    <select id="queryByIdOfDetailed" resultMap="moviesAndDetailsMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies where movie_Id = #{id}
+    </select>
+    <select id="queryByTypeBitOfDetailed" resultMap="moviesAndDetailsMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies where movie_Type &amp; (1 &lt;&lt; #{bit}) != 0
+    </select>
+    <update id="updateMoviesForImage">
+        update movies set movie_DefaultImage = #{movieDefaultImage} , movie_DetailImage = #{movieDetailImage}  WHERE movie_Id = #{movieId}
+    </update>
+    <delete id="deleteMovies">
+        delete from movies where movie_Id = #{id} and movie_State != 1
+    </delete>
+    <select id="queryByIdForImage" resultMap="movieImageMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.Movies">
+        select * from movies where movie_Id = #{id}
+    </select>
+    <update id="updateMoviesDefaultImage">
+        update movies set movie_DefaultImage = #{defaultImage} where movie_Id = #{id}
+    </update>
+
+
+</mapper>

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: ttms-zuul-gateway-config
+      label: master
+      uri: http://ttms.com:55555
+      profile: dev

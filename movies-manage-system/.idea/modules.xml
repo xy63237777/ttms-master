@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movies-manage-api/movies-manage-api.iml" filepath="$PROJECT_DIR$/movies-manage-api/movies-manage-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movies-manage-system.iml" filepath="$PROJECT_DIR$/movies-manage-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thesevensky-spring-boot-starter/thesevensky-spring-boot-starter.iml" filepath="$PROJECT_DIR$/thesevensky-spring-boot-starter/thesevensky-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/thesevensky-spring-boot-starter-autoconfiguration.iml" filepath="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/thesevensky-spring-boot-starter-autoconfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-eureka-server-master/ttms-eureka-server-master.iml" filepath="$PROJECT_DIR$/ttms-eureka-server-master/ttms-eureka-server-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-file-upload-master/ttms-file-upload-master.iml" filepath="$PROJECT_DIR$/ttms-file-upload-master/ttms-file-upload-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-oauth2-server-master/ttms-oauth2-server-master.iml" filepath="$PROJECT_DIR$/ttms-oauth2-server-master/ttms-oauth2-server-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-provider-movies-19527/ttms-provider-movies-19527.iml" filepath="$PROJECT_DIR$/ttms-provider-movies-19527/ttms-provider-movies-19527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-provider-user-master/ttms-provider-user-master.iml" filepath="$PROJECT_DIR$/ttms-provider-user-master/ttms-provider-user-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-server-config/ttms-server-config.iml" filepath="$PROJECT_DIR$/ttms-server-config/ttms-server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttms-zuul-gateway-master/ttms-zuul-gateway-master.iml" filepath="$PROJECT_DIR$/ttms-zuul-gateway-master/ttms-zuul-gateway-master.iml" />
+    </modules>
+  </component>
+</project>

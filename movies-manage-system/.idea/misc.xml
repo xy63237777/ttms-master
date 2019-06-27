@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/movies-manage-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-19527/pom.xml" />
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter-autoconfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-eureka-server-master/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-server-config/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-zuul-gateway-master/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-user-master/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-provider-movies-master/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-oauth2-server-master/pom.xml" />
+        <option value="$PROJECT_DIR$/ttms-file-upload-master/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/thesevensky-spring-boot-starter/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="com.a.a.a.g.d.f">
+    <domainId />
+    <mapperDomain />
+    <backquoteDomain />
+  </component>
+</project>

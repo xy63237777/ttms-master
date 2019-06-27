@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsproviderusermaster.dao.UserDao">
+    <resultMap id="userMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.user.User">
+        <id column="user_Email" property="userEmail" />
+        <result column="user_Name" property="userName" />
+        <result column="user_ImageUrl" property="userImageUrl" />
+        <association property="userAuthority" column="user_Authority"
+                     select="com.thesevensky.ttms.ttmsproviderusermaster.dao.AuthorityDao.findAllSimpleName"/>
+    </resultMap>
+    <resultMap id="cmpUserMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.user.User">
+        <id column="user_Email" property="userEmail" />
+        <result column="user_Password" property="userPassword" />
+        <result column="user_Name" property="userName" />
+        <result column="user_ImageUrl" property="userImageUrl" />
+        <association property="userAuthority" column="user_Authority"
+                     select="com.thesevensky.ttms.ttmsproviderusermaster.dao.AuthorityDao.findAllSimpleName"/>
+    </resultMap>
+    <insert id="addUser">
+        insert into users(ID, user_Email, user_Name, user_Password,
+                          user_ImageUrl, user_CreateTime, user_LastLoginTime,
+                          user_LoginCount, user_Authority,user_State)
+                          values (#{userEmail} , #{userEmail} ,#{userName},#{userPassword},#{userImageUrl},
+                                  now(),now(),0,#{userAuthority},#{userState})
+    </insert>
+    <update id="updateUser">
+        update users set  user_State = #{userState}, user_ImageUrl = #{userImageUrl}
+          where user_Email = #{userEmail}
+    </update>
+    <update id="changeUserForPassword">
+        update users set user_Password = #{userPassword} where user_Email = #{userEmail}
+    </update>
+    <select id="queryByUserId" resultMap="userMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.user.User">
+        select * from users where user_Email = #{userEmail}
+    </select>
+    <select id="queryByKeyAndPassword" resultMap="cmpUserMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.user.User">
+        select * from users where user_Email = #{key}
+    </select>
+    <update id="userForLoginSuccess">
+        update users set user_LastLoginTime = now() , user_LoginCount = user_LoginCount + 1 where user_Email = #{userEmail}
+    </update>
+
+</mapper>

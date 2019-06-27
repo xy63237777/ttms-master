@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesPlanDao">
+    <resultMap id="defaultPlanMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan" >
+        <id column="moviePlan_Id" property="moviePlanId" />
+        <result column="moviePlan_Number" property="moviePlanNumber" />
+        <result column="moviePlan_StartTime" property="moviePlanStartTime" />
+        <result column="moviePlan_EndTime" property="moviePlanEndTime" />
+        <result column="moviePlan_Price" property="moviePlanPrice" />
+        <result column="moviePlan_State" property="moviePlanState" />
+        <association property="moviesHall" column="moviePlan_HallId" select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesHallDao.queryForId" />
+    </resultMap>
+
+    <resultMap id="planDetailsMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan" >
+        <id column="moviePlan_Id" property="moviePlanId" />
+        <result column="moviePlan_Number" property="moviePlanNumber" />
+        <result column="moviePlan_StartTime" property="moviePlanStartTime" />
+        <result column="moviePlan_EndTime" property="moviePlanEndTime" />
+        <result column="moviePlan_Price" property="moviePlanPrice" />
+        <result column="moviePlan_State" property="moviePlanState" />
+        <association property="moviesHall" column="moviePlan_HallId" select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesHallDao.queryById" />
+        <association property="movies" column="moviePlan_MovieId" select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesDao.queryByNotDetails" />
+    </resultMap>
+
+    <resultMap id="idMap" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan" >
+        <id column="moviePlan_Id" property="moviePlanId" />
+    </resultMap>
+
+    <resultMap id="planDetailsMapForPlus" type="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan" >
+        <id column="moviePlan_Id" property="moviePlanId" />
+        <result column="moviePlan_Number" property="moviePlanNumber" />
+        <result column="moviePlan_StartTime" property="moviePlanStartTime" />
+        <result column="moviePlan_EndTime" property="moviePlanEndTime" />
+        <result column="moviePlan_Price" property="moviePlanPrice" />
+        <result column="moviePlan_State" property="moviePlanState" />
+        <association property="moviesHall" column="moviePlan_HallId" select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesHallDao.queryForId" />
+        <association property="movies" column="moviePlan_MovieId" select="com.thesevensky.ttms.ttmsprovidermovies19527.dao.movies.MoviesDao.queryForId" />
+    </resultMap>
+    <insert id="insertMoviePlan" keyColumn="moviePlan_Id" keyProperty="moviePlanId" useGeneratedKeys="true" parameterType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        insert into movies_plan(ID,moviePlan_Id, moviePlan_MovieId, moviePlan_HallId, moviePlan_StartTime,moviePlan_EndTime, moviePlan_State, moviePlan_Price, moviePlan_Number)
+                values (#{moviePlanStartTime}, null,#{movies.movieId},#{moviesHall.movieHallId},#{moviePlanStartTime},#{moviePlanEndTime} , #{moviePlanState},
+                        #{moviePlanPrice},#{moviePlanNumber})
+    </insert>
+    <update id="updateByMoviePlan" parameterType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        update movies_plan set moviePlan_Price = #{moviePlanPrice}, moviePlan_StartTime = #{moviePlanStartTime},
+                               moviePlan_EndTime = #{moviePlanEndTime}  ,
+                               moviePlan_State = #{moviePlanState} where moviePlan_Id = #{moviePlanId}
+    </update>
+    <delete id="deleteById">
+        delete from movies_plan where moviePlan_Id = #{id}
+    </delete>
+    <select resultMap="defaultPlanMap" id="queryAllByMoviesId" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        select * from movies_plan where moviePlan_MovieId = #{moviesId}
+    </select>
+    <select resultMap="defaultPlanMap" id="queryAllByMoviesIdForTime"
+            resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        select * from movies_plan where moviePlan_MovieId = #{id} and (moviePlan_StartTime/1000/60/60/24)
+                between #{leftTime} and #{rightTime}
+    </select>
+    <select resultMap="defaultPlanMap" id="queryById" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        select * from movies_plan where moviePlan_Id = #{id}
+    </select>
+    <select id="queryByIdForDetails" resultMap="planDetailsMapForPlus" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        select * from movies_plan where moviePlan_Id = #{id}
+    </select>
+    <select id="cmpCanInsert" resultMap="defaultPlanMap">
+        select * from movies_plan where moviePlan_HallId = #{moviesHall.movieHallId}
+            and #{moviePlanStartTime} between (moviePlan_StartTime - 1000 * 60 * 10)
+            and (moviePlan_EndTime + 1000 * 60 * 10) limit 0,1
+    </select>
+    <select id="findByIdMap" resultMap="idMap" resultType="com.thesevensky.ttms.moviesmanageapi.pojo.movies.MoviesPlan">
+        select * from movies_plan where moviePlan_Id = #{id}
+    </select>
+
+
+</mapper>
