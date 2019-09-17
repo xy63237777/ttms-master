@@ -9,16 +9,16 @@ create table authority(
 )charset=utf8;
 
 insert into authority(ID,authority_Name,authority_SimpleName,authority_Bit
-,authority_State,authority_UpdateTime) values(null,'超级管理员','root',0,0,now());
+,authority_State,authority_UpdateTime) values('超级管理员','超级管理员','root',0,0,now());
 
 insert into authority(ID,authority_Name,authority_SimpleName,authority_Bit
-,authority_State,authority_UpdateTime) values(null,'管理员','admin',1,0,now());
+,authority_State,authority_UpdateTime) values('管理员','管理员','admin',1,0,now());
 
 insert into authority(ID,authority_Name,authority_SimpleName,authority_Bit
-,authority_State,authority_UpdateTime) values(null,'影厅管理员','hallAdmin',2,0,now());
+,authority_State,authority_UpdateTime) values('影厅管理员','影厅管理员','hallAdmin',2,0,now());
 
 insert into authority(ID,authority_Name,authority_SimpleName,authority_Bit
-,authority_State,authority_UpdateTime) values(null,'会员用户','VIP',3,0,now());
+,authority_State,authority_UpdateTime) values('会员用户','会员用户','VIP',3,0,now());
 
 insert into authority(ID,authority_Name,authority_SimpleName,authority_Bit
-,authority_State,authority_UpdateTime) values(null,'普通用户','user',4,0,now());
+,authority_State,authority_UpdateTime) values('普通用户','普通用户','user',4,0,now());
