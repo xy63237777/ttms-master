@@ -5,7 +5,7 @@ create table authority(
 	authority_SimpleName varchar(255) not null comment '权限',
 	authority_Bit tinyint not null unique comment '权限的位操作',
 	authority_State tinyint not null default 0 comment '权限的状态',
-	authority_UpdateTime timestamp not null comment '最后一次更新时间',
+	authority_UpdateTime timestamp not null comment '最后一次更新时间'
 )charset=utf8;
 
 insert into authority(ID,authority_Name,authority_SimpleName,authority_Bit
